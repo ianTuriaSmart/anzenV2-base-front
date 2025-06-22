@@ -1,0 +1,23 @@
+// app global css in SCSS form
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+// Sobrescribe la fuente global de Quasar
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+// Estilos personalizados para notificaciones
+.notify-ok {
+  background-color: #daffe0 !important; // Color de fondo para "ok"
+  color: #1b4618 !important;          // Texto (puedes ajustarlo)
+}
+
+.notify-nok {
+  background-color: #ffdddd !important; // Color de fondo para "nok"
+  color: #a52d2d !important;          // Texto
+}
+
+.notify-warning {
+  background-color: #ffebb1 !important; // Color de fondo para "warning"
+  color: #b28a17 !important;          // Texto
+}
